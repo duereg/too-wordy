@@ -2,7 +2,7 @@
 
 # Word Complexity
 
-npm module for checking for unreasonably complex words
+npm module for checking for complex words and phrases
 
 ## Install
 
