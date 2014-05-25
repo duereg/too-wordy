@@ -1,4 +1,6 @@
 [![Build Status](https://travis-ci.org/duereg/word-complexity.svg?branch=master)](https://travis-ci.org/duereg/word-complexity)
+[![devDependencies](https://david-dm.org/duereg/word-complexity/dev-status.png)](https://david-dm.org/duereg/word-complexity#info=devDependencies&view=table)
+[![NPM version](https://badge.fury.io/js/word-complexity.svg)](http://badge.fury.io/js/word-complexity)
 
 # Word Complexity
 
