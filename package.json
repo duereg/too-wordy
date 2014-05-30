@@ -1,6 +1,6 @@
 {
   "name": "word-complexity",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Find overly complex words in your writings",
   "main": "word-complexity.js",
   "homepage": "https://github.com/duereg/word-complexity",
@@ -24,7 +24,8 @@
     "prose",
     "words",
     "complexity",
-    "readability"
+    "readability",
+    "grammar"
   ],
   "author": "Matt Blair",
   "license": "MIT",
