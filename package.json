@@ -1,7 +1,7 @@
 {
-  "name": "word-complexity",
-  "version": "0.0.3",
-  "description": "Find overly complex words in your writings",
+  "name": "too-wordy",
+  "version": "0.0.4",
+  "description": "Find wordy or unnecessary passages in your writing",
   "main": "word-complexity.js",
   "homepage": "https://github.com/duereg/word-complexity",
   "author": "Matt Blair <matt@mattblair.co> (http://mattblair.co)",

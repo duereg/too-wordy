@@ -4,7 +4,7 @@
 
 # Word Complexity
 
-npm module for checking for complex words and phrases
+npm module for checking for wordy or unnecessary passages in your writing
 
 ## Install
 
