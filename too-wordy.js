@@ -2,5 +2,5 @@ var complexityRegex = /\b(a number of|abundance|accede to|accelerate|accentuate|
 var matcher = require("./matcher");
 
 module.exports = function(text) {
-  return matcher(complexityRegex, text, "complexity");
+  return matcher(complexityRegex, text, "wordy");
 };

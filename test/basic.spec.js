@@ -1,9 +1,9 @@
-var complexity = require('../word-complexity');
+var complexity = require('../too-wordy');
 var badWordInSentence = 'An abundance of highlights accede to long, complex sentences and common errors.';
 var badPhrasesInSentence = 'a number of sentences are so dense and complicated that your readers will be adversely impacted';
 var goodSentence = 'The good dog jumps over the bad cat.';
 
-describe('word-complexity', function () {
+describe('too-wordy', function () {
 
   describe('a sentence filled with overly complex words', function() {
     var results = null;

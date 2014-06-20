@@ -1,16 +1,16 @@
 {
   "name": "too-wordy",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "description": "Find wordy or unnecessary passages in your writing",
-  "main": "word-complexity.js",
-  "homepage": "https://github.com/duereg/word-complexity",
+  "main": "too-wordy.js",
+  "homepage": "https://github.com/duereg/too-wordy",
   "author": "Matt Blair <matt@mattblair.co> (http://mattblair.co)",
   "bugs": {
-    "url": "https://github.com/duereg/word-complexity/issues"
+    "url": "https://github.com/duereg/too-wordy/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/duereg/word-complexity.git"
+    "url": "https://github.com/duereg/too-wordy.git"
   },
   "directories": {
     "test": "test"
@@ -25,7 +25,9 @@
     "words",
     "complexity",
     "readability",
-    "grammar"
+    "grammar",
+    "wordiness",
+    "wordy"
   ],
   "author": "Matt Blair",
   "license": "MIT",
