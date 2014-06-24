@@ -32,5 +32,4 @@ describe('too-wordy', function () {
   it('should not have a problem with a short sentence', function () {
     expect(complexity(goodSentence)).toEqual([]);
   });
-
 });
