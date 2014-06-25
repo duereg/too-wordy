@@ -13,7 +13,10 @@ describe('too-wordy', function () {
     });
 
     it('the words are noted', function () {
-      expect(results[0].match).toEqual('abundance');
+      expect(results).toEqual([
+        { index : 3, offset : 9 },
+        { index : 27, offset : 9 }
+      ]);
     });
   })
 
@@ -25,7 +28,10 @@ describe('too-wordy', function () {
     });
 
     it('the phrases are noted', function () {
-      expect(results[0].match).toEqual('a number of');
+      expect(results).toEqual([
+        { index : 0, offset : 11 },
+        { index : 87, offset : 8 }
+      ]);
     });
   })
 
