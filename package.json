@@ -31,6 +31,6 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "jasmine-node": "https://github.com/clickinnovation/jasmine-node/tarball/1.14.3-jasmine-reporters-patch"
+    "jasmine-node": "~1.14.5"
   }
 }
