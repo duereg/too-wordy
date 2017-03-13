@@ -23,7 +23,7 @@ var problems = complexity('An abundance of long winded words to accentuate this 
 
 ## See Also
 
-[«Wordy phrases»](http://grammarist.com/wordiness/).
+[Wordy phrases](http://grammarist.com/wordiness/).
 
 ## License
 
