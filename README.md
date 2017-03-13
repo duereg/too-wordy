@@ -21,5 +21,10 @@ var problems = complexity('An abundance of long winded words to accentuate this 
 // problems -> [{ match: "abundance", index: 3, offset: 9 }, {match: accentuate, ....}]
 ```
 
+## See Also
+
+[«Wordy phrases»](http://grammarist.com/wordiness/).
+
 ## License
+
 MIT
