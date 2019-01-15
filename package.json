@@ -1,6 +1,6 @@
 {
   "name": "too-wordy",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Find wordy or unnecessary passages in your writing",
   "main": "too-wordy.js",
   "homepage": "https://github.com/duereg/too-wordy",
