@@ -4,7 +4,6 @@ var badPhrasesInSentence = 'a number of sentences are so dense and complicated t
 var goodSentence = 'The good dog jumps over the bad cat.';
 
 describe('too-wordy', function () {
-
   describe('a sentence filled with overly complex words', function() {
     var results = null;
 
