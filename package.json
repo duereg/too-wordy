@@ -10,7 +10,8 @@
     "url": "https://github.com/duereg"
   },
   "scripts": {
-    "test": "jasmine-node test"
+    "test": "./node_modules/.bin/jasmine-node test",
+    "lint": "eslint ./ --fix"
   },
   "bugs": {
     "url": "https://github.com/duereg/too-wordy/issues"
@@ -21,9 +22,6 @@
   },
   "directories": {
     "test": "test"
-  },
-  "scripts": {
-    "test": "./node_modules/.bin/jasmine-node test"
   },
   "engines": {
     "node": ">=6",
@@ -42,6 +40,11 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "jasmine-node": "~2.0.0"
+    "jasmine-node": "~2.0.0",
+    "eslint": "^5.12.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.12.3"
   }
 }

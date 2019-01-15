@@ -1,5 +1,6 @@
-var matcher = require("./matcher");
-var wordyWords = [
+const matcher = require('./matcher');
+
+const wordyWords = [
   'a number of',
   'abundance',
   'accede to',
@@ -215,11 +216,11 @@ var wordyWords = [
   'whether or not',
   'with respect to',
   'with the exception of',
-  'witnessed'
+  'witnessed',
 ];
 
-var wordyRegex = new RegExp('\\b(' + wordyWords.join('|') + ')\\b', 'gi');
+const wordyRegex = new RegExp(`\\b(${wordyWords.join('|')})\\b`, 'gi');
 
-module.exports = function(text) {
-  return matcher(wordyRegex, text, "wordy");
+module.exports = function isTextWordy(text) {
+  return matcher(wordyRegex, text);
 };

@@ -1,11 +1,13 @@
-var matcher = function(regex, text, type) {
-  var results = [];
+function matcher(regex, text) {
+  const results = [];
+  let result = regex.exec(text);
 
-  while (result = regex.exec(text)) {
-    results.push({index: result.index, offset: result[0].length});
+  while (result) {
+    results.push({ index: result.index, offset: result[0].length });
+    result = regex.exec(text);
   }
 
   return results;
-};
+}
 
 module.exports = matcher;
