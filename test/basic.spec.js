@@ -13,10 +13,7 @@ describe('too-wordy', () => {
     });
 
     it('the words are noted', () => {
-      expect(results).toEqual([
-        { index: 3, offset: 9 },
-        { index: 27, offset: 9 },
-      ]);
+      expect(results).toEqual([{ index: 3, offset: 9 }, { index: 27, offset: 9 }]);
     });
   });
 
@@ -28,10 +25,7 @@ describe('too-wordy', () => {
     });
 
     it('the phrases are noted', () => {
-      expect(results).toEqual([
-        { index: 0, offset: 11 },
-        { index: 87, offset: 8 },
-      ]);
+      expect(results).toEqual([{ index: 0, offset: 11 }, { index: 87, offset: 8 }]);
     });
   });
 

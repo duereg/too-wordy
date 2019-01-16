@@ -216,7 +216,7 @@ const wordyWords = [
   'whether or not',
   'with respect to',
   'with the exception of',
-  'witnessed',
+  'witnessed'
 ];
 
 const wordyRegex = new RegExp(`\\b(${wordyWords.join('|')})\\b`, 'gi');
