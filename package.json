@@ -10,7 +10,7 @@
     "url": "https://github.com/duereg"
   },
   "scripts": {
-    "test": "./node_modules/.bin/jasmine-node test",
+    "test": "npm run lint && ./node_modules/.bin/jasmine-node test",
     "lint": "eslint ./ --fix"
   },
   "bugs": {
