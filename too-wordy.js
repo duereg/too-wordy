@@ -219,7 +219,7 @@ const wordyWords = [
   'witnessed'
 ];
 
-const wordyRegex = new RegExp(`\\b(${wordyWords.join('|')})\\b`, 'gi');
+const wordyRegex = new RegExp(`\\b(?<!-)(${wordyWords.join('|')})\\b`, 'gi');
 
 module.exports = function isTextWordy(text) {
   return matcher(wordyRegex, text);
