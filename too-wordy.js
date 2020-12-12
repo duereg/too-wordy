@@ -1,6 +1,6 @@
 const matcher = require('./matcher');
 
-const wordyWords = [
+let wordyWords = [
   'a number of',
   'abundance',
   'accede to',
@@ -219,6 +219,8 @@ const wordyWords = [
   'witnessed'
 ];
 
+// Replace a basic white-space with more-robust white-space matching for new lines, half-space etc.
+wordyWords = wordyWords.map(w => w.replace(/ /g, '[\\b\\s\\u200C]*'));
 const wordyRegex = new RegExp(`\\b(${wordyWords.join('|')})\\b`, 'gi');
 
 module.exports = function isTextWordy(text) {
