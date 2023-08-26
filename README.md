@@ -13,9 +13,9 @@ npm install too-wordy
 ## Use
 
 ```javascript
-var complexity = require('too-wordy');
+const complexity = require('too-wordy');
 
-var problems = complexity('An abundance of long winded words to accentuate this boring sentence......');
+const problems = complexity('An abundance of long winded words to accentuate this boring sentence......');
 // problems -> [{ match: "abundance", index: 3, offset: 9 }, {match: accentuate, ....}]
 ```
 
