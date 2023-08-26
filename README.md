@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/duereg/too-wordy.svg?branch=master)](https://travis-ci.org/duereg/too-wordy)
-[![devDependencies](https://david-dm.org/duereg/too-wordy/dev-status.svg)](https://david-dm.org/duereg/too-wordy#info=devDependencies&view=table)
 [![NPM version](https://badge.fury.io/js/too-wordy.svg)](http://badge.fury.io/js/too-wordy)
 
 # Word Complexity
